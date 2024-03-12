@@ -1,6 +1,7 @@
 {
     "name": "Any project",
     "image": "mcr.microsoft.com/azterraform:latest",
+    "postCreateCommand": "bash ./.devcontainer/post-create.sh",
 
     "customizations": {
         "vscode": {
